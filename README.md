@@ -31,7 +31,7 @@ I'm not a python person, so I haven't done proper things with requirements.txt o
 
 2. ```./flash-with-retry.sh```
 
-3. If the script fails more than a few times, unplug & replug the tomu, this seems to help. Otherwise, just be patient & it'll likely work eventually.
+3. If the script fails more than a few times, unplug & replug the tomu, this seems to help. Otherwise, just be patient & it'll likely work eventually. You can also use `python3 reset.py` to tell the boot loader to reset.
 
 [homebrew]: https://brew.sh
 [pyserial]: https://pypi.org/project/pyserial/
